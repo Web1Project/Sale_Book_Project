@@ -1,0 +1,277 @@
+<html>
+    <head>
+        <title>TiTi Book | Trang chủ</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+        <!-- Link Bootstrap -->
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+        <!--<script type="text/javascript" src="../bootstrap/js/jquery-3.0.0.js"></script>--> 
+        <!-- Link jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>        
+        <!-- Link CSS -->
+        <link rel="stylesheet" type="text/css" href="../css/homepage.css" />
+        <link rel="stylesheet" type="text/css" href="../css/slider.css" />
+        <link rel="stylesheet" type="text/css" href="../css/navigation.css" />
+        <link rel="stylesheet" type="text/css" href="../css/menu-vertical.css" />
+        <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+        <link rel="stylesheet" type="text/css" href="../css/search-bar.css"/>
+        <!-- Link JS -->
+        <script src="../jquery/slider.js"></script>
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <header>
+        <!-- Menu Bar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top menu-horizontal">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img src="../image/logo.png">
+                    </a>
+                </div>
+                <ul class="nav navbar-nav menu-horizontal-text">
+                    <li><a href="#">Trang Chủ</a></li>
+                    <li><a href="#">Sự Kiện</a></li>
+                    <li><a href="#">Khuyến Mãi</a></li>
+                    <li><a href="#">Liên Hệ</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right menu-horizontal-text"> 
+                    <li><a href="#">Đăng nhập</a></li>
+                    <li><a href="#">Giỏ hàng</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- End of Navigation Bar -->
+        </header>
+        
+        <!-- Start of Slider -->
+        <div class="container-fluid slider">
+            <slider>
+                <div class="slider-list-image">
+                    <div class="slider-list-image-container" id="slider-scrollbar-style">
+                        <img class="slider-image" id="1" src="../image/slider/banner1.jpg" />
+                        <img class="slider-image" id="2" src="../image/slider/banner2.jpg" />
+                        <img class="slider-image" id="3" src="../image/slider/banner3.jpg" />
+                        <img class="slider-image" id="4" src="../image/slider/banner4.jpg" />
+                        <img class="slider-image" id="5" src="../image/slider/banner5.jpg" />
+                        <img class="slider-image" id="6" src="../image/slider/banner6.jpg" />
+                        <img class="slider-image" id="7" src="../image/slider/banner7.jpg" /> 
+                        <img class="slider-image" id="8" src="../image/slider/banner8.jpg" /> 
+                        <img class="slider-image" id="9" src="../image/slider/banner9.jpg" />  
+                    </div>
+                </div>
+                <div class="slider-main-image">
+                    <img id="image01" src="../image/slider/banner1.jpg" />
+                    <img id="image02" src="../image/slider/banner2.jpg" />
+                    <img id="image03" src="../image/slider/banner3.jpg" />
+                    <img id="image04" src="../image/slider/banner4.jpg" />
+                    <img id="image05" src="../image/slider/banner5.jpg" />
+                    <img id="image06" src="../image/slider/banner6.jpg" />
+                    <img id="image07" src="../image/slider/banner7.jpg" />
+                    <img id="image08" src="../image/slider/banner8.jpg" />
+                    <img id="image09" src="../image/slider/banner9.jpg" />
+                </div>
+            </slider>
+        </div>     
+        <!-- End Slider -->
+        <!-- Phần nội dung của trang chủ -->
+        <content>         
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Thanh Menu đứng -->
+                    <nav class="col-md-2 menu-vertical">                
+                        <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="450" >
+                            <li class="menu-vertical-text"><a href="#" class="">Thiếu Nhi</a></li>
+                            <li class="menu-vertical-text"><a href="#" class="">Trinh Thám</a></li>
+                            <li class="menu-vertical-text"><a href="#" class="">Tình Cảm</a></li>
+                            <li class="menu-vertical-text"><a href="#" class="">Kinh Dị</a></li>
+                            <li class="menu-vertical-text"><a href="#" class="">Tiểu Thuyết</a></li>
+                            <li class="menu-vertical-text"><a href="#" class="">Cổ Tích</a></li>
+                            <li class="menu-vertical-text"><a href="#" class="">Hài Hước</a></li>
+                            <li class="menu-vertical-text"><a href="#" class="">Lịch Sử</a></li>
+                            <li class="menu-vertical-text"><a href="#" class="">Chính Trị</a></li>
+                            <li class="menu-vertical-text"><a href="#" class="">Danh Ngôn</a></li>
+                            <li class="menu-vertical-text"><a href="#" class="">Công Nghệ</a></li>
+                            <li class="menu-vertical-text"><a href="#" class="">Khoa Học</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Kết thúc thanh menu đứng -->
+                    <div class="col-md-9 content-page">
+                        <!-- Phần nội dung chính -->
+                        <!-- Thanh Tìm kiếm Sách -->
+                        <div class="row search-bar" >
+                            <form class="form-inline">
+                                <input id="search-box" type="text" placeholder="Nhập Tên Sách">
+                                <button type="button">
+                                    <span class="glyphicon glyphicon-search"></span> 
+                                </button>
+                            </form>
+                        </div>
+                        <!--Kết thúc thanh tìm kiếm sách -->
+                        <!-- Phần html của hiển thị sản phẩm -->
+                        <div class="row">
+                            <div class="col-md-2 imageframe">
+                                <img class="bookimage" src="../image/book/book1.jpg"/>
+                                <div class="imgdesc">
+                                    <p><a class="nav-product" href="#">Cát Trọc Đầu</a><br><i>Nguyễn Quang Vinh</i></p>
+                                    <p id="bookprice">116,000 VNĐ</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 imageframe">
+                                <img class="bookimage" src="../image/book/book2.jpg"/>
+                                <div class="imgdesc">
+                                    <p><a class="nav-product" href="#">Cát Trọc Đầu</a><br><i>Nguyễn Quang Vinh</i></p>
+                                    <p id="bookprice">116,000 VNĐ</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 imageframe">
+                                <img class="bookimage" src="../image/book/book3.jpg"/>
+                                <div class="imgdesc">
+                                    <p><a class="nav-product" href="#">Cát Trọc Đầu</a><br><i>Nguyễn Quang Vinh</i></p>
+                                    <p id="bookprice">116,000 VNĐ</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 imageframe">
+                                <img class="bookimage" src="../image/book/book4.jpg"/>
+                                <div class="imgdesc">
+                                    <p><a class="nav-product" href="#">Cát Trọc Đầu</a><br><i>Nguyễn Quang Vinh</i></p>
+                                    <p id="bookprice">116,000 VNĐ</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 imageframe">
+                                <img class="bookimage" src="../image/book/book5.jpg"/>
+                                <div class="imgdesc">
+                                    <p><a class="nav-product" href="#">Cát Trọc Đầu</a><br><i>Nguyễn Quang Vinh</i></p>
+                                    <p id="bookprice">116,000 VNĐ</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 imageframe">
+                                <img class="bookimage" src="../image/book/book6.jpg"/>
+                                <div class="imgdesc">
+                                    <p><a class="nav-product" href="#">Cát Trọc Đầu</a><br><i>Nguyễn Quang Vinh</i></p>
+                                    <p id="bookprice">116,000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 imageframe">
+                                <img class="bookimage" src="../image/book/book7.jpg"/>
+                                <div class="imgdesc">
+                                    <p><a class="nav-product" href="#">Cát Trọc Đầu</a><br><i>Nguyễn Quang Vinh</i></p>
+                                    <p id="bookprice">116,000 VNĐ</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 imageframe">
+                                <img class="bookimage" src="../image/book/book8.jpg"/>
+                                <div class="imgdesc">
+                                    <p><a class="nav-product" href="#">Cát Trọc Đầu</a><br><i>Nguyễn Quang Vinh</i></p>
+                                    <p id="bookprice">116,000 VNĐ</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 imageframe">
+                                <img class="bookimage" src="../image/book/book9.jpg"/>
+                                <div class="imgdesc">
+                                    <p><a class="nav-product" href="#">Cát Trọc Đầu</a><br><i>Nguyễn Quang Vinh</i></p>
+                                    <p id="bookprice">116,000 VNĐ</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 imageframe">
+                                <img class="bookimage" src="../image/book/book10.jpg"/>
+                                <div class="imgdesc">
+                                    <p><a class="nav-product" href="#">Cát Trọc Đầu</a><br><i>Nguyễn Quang Vinh</i></p>
+                                    <p id="bookprice">116,000 VNĐ</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 imageframe">
+                                <img class="bookimage" src="../image/book/book11.jpg"/>
+                                <div class="imgdesc">
+                                    <p><a class="nav-product" href="#">Hãy Đắm Chìm Vào Giấc Mơ</a><br><i>Nguyễn Quang Vinh</i></p>
+                                    <p id="bookprice">116,000 VNĐ</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 imageframe">
+                                <img class="bookimage" src="../image/book/book12.jpg"/>
+                                <div class="imgdesc">
+                                    <p><a class="nav-product" href="#">Cát Trọc Đầu Trọc Hết Cả Tóc</a><br><i>Nguyễn Quang Vinh</i></p>
+                                    <p id="bookprice">116,000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 imageframe">
+                                <img class="bookimage" src="../image/book/book13.jpg"/>
+                                <div class="imgdesc">
+                                    <p><a class="nav-product" href="#">Cát Trọc Đầu Trọc Hết Cả Tóc</a><br><i>Nguyễn Quang Vinh</i></p>
+                                    <p id="bookprice">116,000 VNĐ</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 imageframe">
+                                <img class="bookimage" src="../image/book/book14.jpg"/>
+                                <div class="imgdesc">
+                                    <p><a class="nav-product" href="#">Cát Trọc Đầu Trọc Hết Cả Tóc</a><br><i>Nguyễn Quang Vinh</i></p>
+                                    <p id="bookprice">116,000 VNĐ</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 imageframe">
+                                <img class="bookimage" src="../image/book/book15.jpg"/>
+                                <div class="imgdesc">
+                                    <p><a class="nav-product" href="#">Cát Trọc Đầu Trọc Hết Cả Tóc</a><br><i>Nguyễn Quang Vinh</i></p>
+                                    <p id="bookprice">116,000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 imageframe">
+                                <img class="bookimage" src="../image/book/book16.jpg"/>
+                                <div class="imgdesc">
+                                    <p><a class="nav-product" href="#">Cát Trọc Đầu Trọc Hết Cả Tóc</a><br><i>Nguyễn Quang Vinh</i></p>
+                                    <p id="bookprice">116,000 VNĐ</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 imageframe">
+                                <img class="bookimage" src="../image/book/book17.jpg"/>
+                                <div class="imgdesc">
+                                    <p><a class="nav-product" href="#">Cát Trọc Đầu Trọc Hết Cả Tóc</a><br><i>Nguyễn Quang Vinh</i></p>
+                                    <p id="bookprice">116,000 VNĐ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Kết thúc phần html hiển thị sản phẩm -->
+                    </div>
+                </div>
+            </div>
+            <!-- Kết thúc phần hiện sản phẩm của nội dung trang -->
+        </content> 
+    
+        <!-- Phần footer của trang web -->
+        <footer>
+            <div class="footer-background"></div>
+            <div class="social-network">
+                <div class="social-network-title">Kết nối với chúng tôi</div>
+                <div class="social-network-button">
+                    <span class="facebook-button"></span>
+                    <span class="google-button"></span>
+                    <span class="twitter-button"></span>
+                    <span class="pinterest-button"></span>
+                </div>             
+            </div>
+            <a class="service" href="#">Dịch vụ</a>
+            <a class="policy" href="#">Chính sách</a>
+            <div class="location">
+                <div class="location-title">
+                    Địa chỉ của chúng tôi
+                </div>
+                <div class="location-address">
+                    Thành phố : Hồ Chí Minh <br>
+                    Số : 273 An Dương Vương <br>
+                    Phường : 03 <br>
+                    Quận : 05                    
+                </div>
+            </div>
+        </footer>
+        <!-- Kết thúc phần html của trang web -->
+    </body>
+</html>

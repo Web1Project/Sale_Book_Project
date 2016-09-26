@@ -1,0 +1,62 @@
+/* Phần css của nội dung trang chủ - sản phẩm */
+content {
+    position: relative;
+    top: 30px;
+}
+.container-fluid {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+/* Css khung chứa sản phẩm */
+.imageframe {
+    width: 165px;
+    border: 1px solid lightgray;
+    margin: 0 10px 10px 0;
+}
+.imageframe:hover {
+    border: 1px solid coral;
+}
+.bookimage {
+    position: relative;
+    height: 130px;
+    width: 100px;
+    left: 18px;
+    top: 5px;
+    cursor: pointer;
+}
+/* Css của tên sách */
+.nav-product {
+    position: absolute;  
+    height: 20px;
+    width: 150px;
+    color: black;  
+    text-align: center;
+    overflow: hidden;
+    left: 7px;
+    bottom: 49px;
+    overflow: hidden;
+}
+.nav-product:hover {
+    text-decoration: none;
+    color: blue;
+}
+/* Css tên tác giả */
+.imgdesc i {
+    position: relative; 
+    left: 3px;
+    top: 12px;
+}
+/* Css giá sách */
+#bookprice {
+    position: relative;
+    top: 4px;
+    color: orangered;
+    text-align: center;      
+}
+/**/
+.content-page {
+    position: relative;
+    left: 229px;
+    width: 1051px;
+}

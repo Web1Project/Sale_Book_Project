@@ -1,0 +1,107 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>        
+        <link rel="stylesheet" type="text/css" href="../css/addbook.css"/>  
+    </head>
+    <body>
+        <div class="container">
+        <form method="">
+            <div class="row">
+                <div class="col-md-3 mylabel">
+                    <label>Book Name:</label> 
+                </div>
+                <div class="col-md-5 mycontent">
+                    <input name="bookname" type="text"> <br>                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mylabel">
+                    <label>Header:</label> 
+                </div>
+                <div class="col-md-5 mycontent">
+                    <input name="header" type="text"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mylabel">
+                    <label>Content:</label>
+                </div>
+                <div class="col-md-5 mycontent">
+                    <textarea name="content" rows="5" cols="30"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mylabel">
+                    <label>Publisher:</label>
+                </div>
+                <div class="col-md-5 mycontent">
+                    <input name="publisher" type="text" list="pls"/>
+                    <datalist id="pls">
+                        <option value="NXB Kim Đồng">
+                        <option value="NXB Trẻ">
+                        <option value="NXB Nghệ Thuật">
+                        <option value="Bộ Giáo Dục Việt Nam">
+                        <option value="NXB Hồ Tây">
+                        <option value="NXB Văn Hóa">
+                    </datalist>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mylabel">
+                    <label>Subject:</label>
+                </div>
+                <div class="col-md-5 mycontent">
+                    <select name="subject">
+                        <option value="object1">Object 1</option>
+                        <option value="object2">Object 2</option>
+                        <option value="object3">Object 3</option>
+                        <option value="object4">Object 4</option>
+                        <option value="object5">Object 5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mylabel">
+                    <label>Author:</label>
+                </div>
+                <div class="col-md-5 mycontent">
+                    <select name="author">
+                        <option value="">author 1</option>
+                        <option value="">author 2</option>
+                        <option value="">author 3</option>
+                        <option value="">author 4</option>
+                        <option value="">author 5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mylabel">
+                    <label>Quantity:</label>
+                </div>
+                <div class="col-md-5 mycontent">
+                    <input name="quantity" type="number" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mylabel">
+                    <label>Price:</label>
+                </div>
+                <div class="col-md-5 mycontent">
+                    <input name="price" type="text" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1 col-md-offset-1">
+                    <input type="submit" value="Thêm Sách"/>
+                </div>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>

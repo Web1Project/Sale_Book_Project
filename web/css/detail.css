@@ -1,0 +1,62 @@
+.detail-container {
+    position: relative;
+    top: 120px;
+    height: 1100px;
+}
+.detail-page {
+    position: absolute;
+    left: 280px;
+}
+.book-detail {
+    position: absolute;
+    width: 1000px;
+    height: 900px;
+    border: 1px solid lightgray;
+}
+.book-image {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.book-information {
+    position: absolute;
+    top: 20px;
+    left: 220px;
+}
+.book-introduce {
+    position: absolute;
+    top: 250px;
+    width: 960px;
+    height: auto;
+    left: 20px;
+}
+.add-to-cart {
+    background-color: dodgerblue;
+    color: white;
+    padding: 6px 8px 6px 8px;
+}
+.add-to-cart:hover {
+    text-decoration: none;
+    color: yellow;
+}
+h1, h2 {
+    font-size: 20px;
+}
+.book-summary {
+    text-align: justify;
+}
+.relevant-book {
+    position: absolute;
+    bottom: 260px;
+    width: 960px;
+    left: 20px;
+    height: auto;
+}
+.list-image-relevant-book {
+    position: absolute;
+    height: 240px;
+}
+.list-image-relevant-book img {
+    height: inherit;
+    width: 188px;
+}

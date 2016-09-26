@@ -1,0 +1,15 @@
+.container{
+    margin-top: 50px;
+}
+.mylabel{
+    margin: 10px 0px;
+    width: 180px;
+    padding-right: 0px;
+    text-align: right;
+    /*background-color: lightcoral;*/
+}
+.mycontent{
+    margin: 10px 0px;
+    text-align: left; 
+    /*background-color: lightgreen;*/
+}

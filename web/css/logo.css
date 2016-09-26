@@ -1,0 +1,38 @@
+logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 165px;
+    height: 77px;
+    /*background-color:red;*/
+}
+.bLetter, .oFirstLetter, .oNextLetter, .kLetter, .logoBottomSentence {
+    position: absolute;  
+    font-family: serif;
+    font-weight: bold;
+}
+.bLetter, .oFirstLetter, .oNextLetter, .kLetter {
+    font-family: 'Lobster 1.4';
+    font-size: 42px;
+    background: linear-gradient(#f46b45,#eea849);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.bLetter {
+    left: 30px;
+}
+.oFirstLetter {
+    left: 60px;
+}
+.oNextLetter {
+    left: 82px;
+}
+.kLetter {
+    left: 104px;
+}
+.logoBottomSentence {
+    font-family: 'Bebas Neue';
+    font-size: 19px;
+    top: 47px;
+    left: 21px;
+}

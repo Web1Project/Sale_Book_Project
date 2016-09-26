@@ -1,0 +1,18 @@
+.affix{
+    top: 65px;
+    width: 195px;
+}
+.menu-vertical {
+    position: absolute;
+    left: 0px;
+}
+.menu-vertical-text{
+    color: red !important;
+    background-color: #eaeff4;
+    border: 1px solid gray;
+    margin-bottom: -3px;
+}
+.menu-vertical-text:hover {
+    background-color: #FFF600 !important;
+    color: black !important;
+}

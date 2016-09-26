@@ -1,0 +1,23 @@
+.search-bar {
+    position: relative;
+    width: 315px;
+    height: 50px;
+}
+#search-box {
+    position: absolute;
+    height: 42px;
+    width: 270px;
+    padding: 0 0 0 10px;
+}
+.glyphicon-search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid gray;
+    font-size: 20px;
+    padding: 10px;
+}
+.glyphicon-search:hover {
+    background-color: gray;
+    color: white;
+}

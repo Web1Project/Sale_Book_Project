@@ -1,0 +1,22 @@
+.navbar{
+    border-radius: 0;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+.navbar-brand{
+    padding: 0px;
+}
+.navbar + .container-fluid{
+    margin-top: 51px;
+}
+.menu-horizontal{
+    background-color: #9ba076;
+}
+.menu-horizontal-text li a{
+    color: white !important;
+    font-size: 15px;
+}
+.menu-horizontal-text li:hover{
+    background-color: black;
+}

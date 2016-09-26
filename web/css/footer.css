@@ -1,0 +1,103 @@
+/* Phần css của footer */
+footer {
+    position: relative;
+    top: 50px;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    border-top: 2px solid lightgray;
+    background-color: white !important;
+}
+.footer-background {
+    background-image: url(../image/book-footer-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: -64px;
+    width: inherit;
+    height: 155px;
+    opacity: 0.9;
+}
+.social-network {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    top: 20px;
+    left: 60px;
+}
+/* Dòng chữ "Kết nối với chúng tôi" */
+.social-network-title {
+    position: absolute;
+    font-weight: bold;
+}
+.social-network-button {
+    position: absolute;
+    width: 210px;
+    height: 31px;
+    top: 35px;
+}
+.facebook-button, .google-button, .twitter-button, .pinterest-button {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    margin-right: 20px;
+}
+/* Nút mạng xã hội dùng file .svg */
+.facebook-button {  
+    background-image: url(../icon/Social_Icon_2/iconjar/icons/facebook%20color.svg);
+}
+.google-button {
+    background-image: url(../icon/Social_Icon_2/iconjar/icons/google%20color.svg);
+}
+.twitter-button {
+    background-image: url(../icon/Social_Icon_2/iconjar/icons/twitter%20color.svg);
+    width: 36px;
+}
+.pinterest-button {
+    background-image: url(../icon/Social_Icon_2/iconjar/icons/pinterest%20color.svg);
+}
+.facebook-button:hover, .google-button:hover, .twitter-button:hover, .pinterest-button:hover {
+    transform: scale(1.1);
+}
+/* Phần css của nút dịch vụ và chín sách */
+.service, .policy {
+    position: absolute;
+    width: auto;
+    height: 20px;
+    left: 60px;
+    color: black;
+}
+.service {
+    top: 105px;  
+}
+.policy {
+    top: 135px;
+}
+.service:hover, .policy:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+/* Phần css của địa chỉ */
+.location {
+    position: absolute;
+    width: 220px;
+    height: 150px;
+    top: 20px;
+    left: 330px;
+}
+.location-title {
+    font-weight: bold;
+}
+.location-address {
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 34px;
+    padding: 10px;
+    box-shadow: 0 0 1px black;
+}
